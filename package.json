@@ -1,0 +1,22 @@
+{
+  "name": "bundlers",
+  "version": "1.0.0",
+  "description": "Test environment for bundlers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jamstewart83/bundlers.git"
+  },
+  "author": "Jamie Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamstewart83/bundlers/issues"
+  },
+  "homepage": "https://github.com/jamstewart83/bundlers#readme",
+  "dependencies": {
+    "rollup": "^2.48.0"
+  }
+}
