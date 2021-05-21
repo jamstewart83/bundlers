@@ -4,7 +4,9 @@
   "description": "Test environment for bundlers",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "bundle": "rollup index.js --format es --name 'myBundle' --file bundle.js",
+    "server:start": "npm run bundle && npx http-server"
   },
   "repository": {
     "type": "git",
