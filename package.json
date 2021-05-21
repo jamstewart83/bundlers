@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "bundle": "",
+    "bundle": "parcel index.js",
     "server:start": "npm run bundle && npx http-server"
   },
   "repository": {
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jamstewart83/bundlers/issues"
   },
-  "homepage": "https://github.com/jamstewart83/bundlers#readme"
+  "homepage": "https://github.com/jamstewart83/bundlers#readme",
+  "dependencies": {
+    "js": "^0.1.0",
+    "parcel-bundler": "^1.12.5"
+  }
 }
